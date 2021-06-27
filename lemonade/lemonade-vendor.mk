@@ -15,6 +15,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
     vendor/oneplus/lemonade/proprietary/odm/etc/acdbdata/acdb_version:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/acdb_version \
     vendor/oneplus/lemonade/proprietary/vendor/bin/hw/vendor.pixelworks.hardware.display.iris-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.pixelworks.hardware.display.iris-service \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/irissoft.fw:$(TARGET_COPY_OUT_VENDOR)/etc/irissoft.fw \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/irissoft_fod.fw:$(TARGET_COPY_OUT_VENDOR)/etc/irissoft_fod.fw \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100.conf_19825:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf_19815 \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100.conf_20851:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf_20857 \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100.conf_20852:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf_20858 \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100.conf_20853:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf_20859 \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -23,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.00.pmd \
     vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.10.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.0.0_0.1__3.0.0_0.0__eai_1.10.pmd \
     vendor/oneplus/lemonade/proprietary/vendor/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.00.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_ns_models/fai__2.3.0_0.1__3.0.0_0.0__eai_1.00.pmd \
@@ -53,8 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/calibrationOutput_uw_lemonadep.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibrationOutput_uw_lemonadep.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/calibrationOutput_uw_lemonadep_686.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibrationOutput_uw_lemonadep_686.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/calibrationOutput_wt_lemonadep.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibrationOutput_wt_lemonadep.bin \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/darksight/darksight_main.bin \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/darksight/darksight_ultrawide.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/eis_camera.vcfg \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/face_retouch_chinese.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/face_retouch_chinese.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/fb_china_level1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_china_level1 \
@@ -64,6 +71,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/fb_indian_big_level1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_indian_big_level1 \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/fb_indian_big_level2:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_indian_big_level2 \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/fb_indian_big_level3:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_indian_big_level3 \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv_1.2_wp.model \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/selfbokehParam.json \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/selfbokehmodel.bin \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/darksight/darksight_main.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/darksight/darksight_main.bin \
+    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/darksight/darksight_ultrawide.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/000.png \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/000_pre.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/fb_model/001.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/001.png \
@@ -129,8 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/fb_model/skinLUTs_yuv16_13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinLUTs_yuv16_13.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/fb_model/skinmask.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinmask.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/fb_model/skinmask.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_model/skinmask.png \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv_1.2_wp.model \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/pfb_bin/BeardSharp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/pfb_bin/BeardSharp.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/pfb_bin/BeardSharp.frag:$(TARGET_COPY_OUT_VENDOR)/etc/camera/pfb_bin/BeardSharp.frag \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/pfb_bin/BeardSharp.vert:$(TARGET_COPY_OUT_VENDOR)/etc/camera/pfb_bin/BeardSharp.vert \
@@ -171,8 +182,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/selfbokehParam.json \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/selfbokehmodel.bin \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/tonemap/curve_lut_0:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/curve_lut_0 \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/curve_lut_1 \
     vendor/oneplus/lemonade/proprietary/vendor/etc/camera/tonemap/curve_lut_10:$(TARGET_COPY_OUT_VENDOR)/etc/camera/tonemap/curve_lut_10 \
@@ -240,14 +249,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/etc/inparm/irissoft/inParm8_b.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm8_b.txt \
     vendor/oneplus/lemonade/proprietary/vendor/etc/inparm/irissoft/inParm8_c.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm8_c.txt \
     vendor/oneplus/lemonade/proprietary/vendor/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/mcfCheck.txt \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/irissoft.fw:$(TARGET_COPY_OUT_VENDOR)/etc/irissoft.fw \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/irissoft_fod.fw:$(TARGET_COPY_OUT_VENDOR)/etc/irissoft_fod.fw \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100.conf_19825:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf_19815 \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100.conf_20851:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf_20857 \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100.conf_20852:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf_20858 \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100.conf_20853:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf_20859 \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
     vendor/oneplus/lemonade/proprietary/vendor/etc/sensors/config/ak0991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak0991x_0.json \
     vendor/oneplus/lemonade/proprietary/vendor/etc/sensors/config/bmi26x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi26x_0.json \
     vendor/oneplus/lemonade/proprietary/vendor/etc/sensors/config/bmi26x_0_crt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi26x_0_crt.json \
@@ -410,7 +411,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/etc/sensors/proto/sns_ultra_violet.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ultra_violet.proto \
     vendor/oneplus/lemonade/proprietary/vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_wrist_tilt_gesture.proto \
     vendor/oneplus/lemonade/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/oneplus/lemonade/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/oneplus/lemonade/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
     vendor/oneplus/lemonade/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
     vendor/oneplus/lemonade/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
@@ -455,6 +455,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
     vendor/oneplus/lemonade/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
     vendor/oneplus/lemonade/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
+    vendor/oneplus/lemonade/proprietary/vendor/lib64/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fp_hal_extension.so \
+    vendor/oneplus/lemonade/proprietary/vendor/lib64/hw/goodix.fod.lahaina.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/goodix.fod.lahaina.so \
+    vendor/oneplus/lemonade/proprietary/vendor/lib64/libgf_ud_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ud_hal.so \
+    vendor/oneplus/lemonade/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/arcsoft_calibration_uw.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_calibration_uw.bin \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/arcsoft_calibration_wt.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_calibration_wt.bin \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_t.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_t.bin \
@@ -466,7 +470,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/com.qti.sensor.imx689.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx689.so \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/com.qti.sensor.imx766.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx766.so \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/com.qti.sensor.imx789.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx789.so \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/com.qti.sensor.s5k3m5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k3m5.so \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/com.qti.sensor.ov08a10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov08a10.so \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/com.qti.sensormodule.lemonade.semco_imx689.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lemonade.semco_imx689.bin \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/com.qti.sensormodule.lemonade.shine_gc02m1b.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.lemonade.shine_gc02m1b.bin \
@@ -492,6 +495,10 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_imx686.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx686.bin \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_imx766.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx766.bin \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/com.qti.tuned.truly_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.truly_imx471.bin \
+    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
+    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
+    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
+    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/components/com.arcsoft.node.eisv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.eisv2.so \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.smooth_transition.so \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/components/com.oplus.node.rtb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.oplus.node.rtb.so \
@@ -541,13 +548,4 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.af.so \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.awb.so \
     vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qtistatic.stats.pdlib.so \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/components/libdepthmapwrapper_secure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper_secure.so \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/fp_hal_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fp_hal_extension.so \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/hw/goodix.fod.lahaina.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/goodix.fod.lahaina.so \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/libgf_ud_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ud_hal.so \
-    vendor/oneplus/lemonade/proprietary/vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
+    vendor/oneplus/lemonade/proprietary/vendor/lib64/camera/components/libdepthmapwrapper_secure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/libdepthmapwrapper_secure.so 
